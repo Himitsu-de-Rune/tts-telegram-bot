@@ -164,7 +164,7 @@ class TestHandleHelpCommandUseCase(unittest.TestCase):
         """Test help command."""
         result = self.use_case.execute()
         self.assertIn("Справка", result)
-        self.assertIn("2000", result)  # Max length mentioned
+        self.assertIn("2000", result)
 
 
 if __name__ == "__main__":
