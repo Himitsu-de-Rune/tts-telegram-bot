@@ -38,7 +38,7 @@ class SberTtsProvider(BaseTtsProvider):
             
             params = {
                 "lang": config.language,
-                "voice": "Nec_24000",
+                "voice": "Pon_24000",
                 "speed": str(config.speed),
                 "format": "opus"
             }
